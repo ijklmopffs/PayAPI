@@ -158,20 +158,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-
-          <div className="my-20 flex flex-col lg:flex-row gap-10 lg:gap-0 items-center justify-between relative">
-            <h2 className="text-5xl text-sanJuanBlue">Ready to start?</h2>
-            <div className="md:relative flex flex-col md:block">
-              <input
-                type="email"
-                placeholder="Enter email address"
-                className="px-6 p-3 shadow-2xl rounded-full text-sanJuanBlue text-sm font-sans w-[25rem] my-2"
-              />
-              <button className="text-waterWhite bg-darkPink px-6 p-3 rounded-full md:absolute right-0 top-1">
-                Schedule a Demo
-              </button>
-            </div>
-          </div>
         </div>
       </section>
       <Footer />
