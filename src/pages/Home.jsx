@@ -14,6 +14,7 @@ import personal from "../assets/home/desktop/icon-personal-finances.svg";
 import banking from "../assets/home/desktop/icon-banking-and-coverage.svg";
 import consumer from "../assets/home/desktop/icon-consumer-payments.svg";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -71,9 +72,11 @@ export default function Home() {
               provide developers with the tools they need to create easy and
               accessible experiences for their users.
             </p>
-            <button className="text-waterWhite border-white border-2 px-6 p-3 rounded-full hover:bg-white hover:text-black">
-              About Us
-            </button>
+            <Link to="/about">
+              <button className="text-waterWhite border-white border-2 px-6 p-3 rounded-full hover:bg-white hover:text-black">
+                About Us
+              </button>
+            </Link>
           </div>
           <div className="flex items-center flex-wrap w-80 md:w-[30rem] gap-10">
             <img src={tesla} alt="tesla image" className="w-32" />

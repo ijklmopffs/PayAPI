@@ -31,9 +31,9 @@ export default function Footer() {
         <div className="md:max-w-[80%] mx-auto flex flex-col md:flex-row gap-10 md:gap-0 items-center justify-between">
           <div className="flex flex-col md:flex-row items-center gap-8 font-sans font-bold text-sm text-waterWhite">
             <img src={logo} alt="" />
-            <Link>Pricing</Link>
-            <Link>About</Link>
-            <Link>Contact</Link>
+            <Link to="/pricing">Pricing</Link>
+            <Link to="/about">About</Link>
+            <Link to="/contact">Contact</Link>
           </div>
           <div className="flex items-center gap-4">
             <Link>

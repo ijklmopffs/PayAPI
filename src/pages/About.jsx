@@ -93,8 +93,8 @@ export default function About() {
             <div className="my-10 flex flex-col md:flex-row justify-between">
               <h3 className="text-3xl text-sanJuanBlue">The Culture</h3>
               <p className="font-sans text-sm text-lightSanJuanBlue w-80 md:w-[36rem] mx-auto md:mx-0">
-                We strongly believe there's always an opportunity to learn from
-                each other outside of day-to-day work, whether it's company-wide
+                We strongly believe there’s always an opportunity to learn from
+                each other outside of day-to-day work, whether it’s company-wide
                 offsites, internal hackathons, or co-worker meetups. We always
                 value cross-team collaboration and diversity of thought, no
                 matter the job title.
@@ -104,7 +104,7 @@ export default function About() {
             <div className="my-10 flex flex-col md:flex-row justify-between">
               <h3 className="text-3xl text-sanJuanBlue">The People</h3>
               <p className="font-sans text-sm text-lightSanJuanBlue w-80 md:w-[36rem] mx-auto md:mx-0">
-                We're all passionate about building a more efficient and
+                We’re all passionate about building a more efficient and
                 inclusive financial infrastructure together. At PayAPI, we have
                 diverse backgrounds and skills.
               </p>
