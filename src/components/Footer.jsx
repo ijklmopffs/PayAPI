@@ -13,7 +13,7 @@ export default function Footer() {
         <div className="md:max-w-[80%] mx-auto">
           <div className="flex flex-col lg:flex-row gap-10 lg:gap-0 items-center justify-between relative">
             <h2 className="text-5xl text-sanJuanBlue">Ready to start?</h2>
-            <div className="md:relative flex flex-col md:block">
+            <div className="md:relative flex flex-col md:block gap-2 md:gap-0">
               <input
                 type="email"
                 placeholder="Enter email address"

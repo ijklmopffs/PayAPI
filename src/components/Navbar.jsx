@@ -29,8 +29,8 @@ export default function Navbar() {
         </button>
         <div className="flex flex-col mt-40 md:mt-0 md:flex-row gap-8 text-waterWhite md:text-sanJuanBlue">
           <Link to="/pricing">Pricing</Link>
-          <Link>About</Link>
-          <Link>Contact</Link>
+          <Link to="/about">About</Link>
+          <Link to="/contact">Contact</Link>
         </div>
         <div>
           <button className="text-waterWhite bg-darkPink px-6 p-3 rounded-full hover:opacity-70">
